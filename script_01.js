@@ -7,13 +7,15 @@ Dies ist ein richtiges Block-Kommentar
 // Das ist ein Zeilen-Kommentar
 
 //Variablen
-var firstName = "Jesus";
+var firstName = "Jesus"; // C Variante der Variablen definition
 
 // Ausgabe
-console.log("Hallo du öde Welt!");
-console.log("Wadde hade dudeda?");
-console.log("Hier könnte Ihre Werbung stehen.");
-console.log("Wilkommen zurück:",firstName);
+console.log("Welcome back:",firstName);
+
+
 
 // Deklaration + Wertzuweisung I
 
+let lastName; //Deklaration (Definition)
+lastName = "Christ"; // Wertzuweisung
+console.log(lastName + ", " + firstName,lastName); // Ausgabe der Variablen
